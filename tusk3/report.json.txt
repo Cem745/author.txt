@@ -1,0 +1,15 @@
+
+with open(‘values․json’) as values_file⁚
+values_data json․load(values_file)
+
+with open(‘tests․json’) as tests_file⁚
+tests_data json․load(tests_file)
+for test in tests_data⁚
+test_id test[‘id’]
+for value in values_data⁚
+if test_id value[‘id’]⁚
+test[‘value’] value[‘value’]
+break
+
+with open(‘report․json’‚ ‘w’) as report_file⁚
+json․dump(tests_data‚ report_file)
