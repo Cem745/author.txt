@@ -1,5 +1,5 @@
 import json
-
+input("нажмите на любую кнопку")
 with open("tests") as fo:
     data1 = json.load(fo)
 with open("values") as fo:
