@@ -1,8 +1,8 @@
 import json
 
-with open("C:\Users\Сёма\source\repos\tusk 3\tests") as fo:
+with open("tests") as fo:
     data1 = json.load(fo)
-with open("C:\Users\Сёма\source\repos\tusk 3\values") as fo:
+with open("values") as fo:
     data2 = json.load(fo)
 
 for dest in data1['tests']:
