@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
+public class CircularArray {
 public static void CircularArray(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the number of elements in the array: ");
