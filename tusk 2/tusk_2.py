@@ -1,9 +1,9 @@
 from math import sqrt
 
 if __name__ == '__main__':
-    curcle = input('Ïóòü äî ôàéëà ñ êîîðäèíàòàìè è ðàäèóñîì îêðóæíîñòè: ')
-    dot = input('Ïóòü äî ôàéëà ñ êîîðäèíàòàìè òî÷åê: ')
-    with open(curcle) as f:
+    curle = input('Путь до файла с координатами и радиусом окружности: ')
+    dot = input('Путь до файла с координатами точек: ')
+    with open(cirle) as f:
         xc, yc = f.readline().split()
         xc, yc = float(xc), float(yc)
         r = int(f.readline(2))
