@@ -1,8 +1,7 @@
 import json
-input("нажмите на любую кнопку")
-with open("tests") as fo:
+with open("tests.json") as fo:
     data1 = json.load(fo)
-with open("values") as fo:
+with open("values.json") as fo:
     data2 = json.load(fo)
 
 for dest in data1['tests']:
