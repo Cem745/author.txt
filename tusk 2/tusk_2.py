@@ -1,8 +1,6 @@
 from math import sqrt
 
 if __name__ == '__main__':
-    curle = input('Путь до файла с координатами и радиусом окружности: ')
-    dot = input('Путь до файла с координатами точек: ')
     with open(cirle) as f:
         xc, yc = f.readline().split()
         xc, yc = float(xc), float(yc)
